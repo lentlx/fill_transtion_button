@@ -1,0 +1,19 @@
+button {
+    background: linear-gradient(to bottom, black 50%, white 50%);
+    background-size: 100% 200%;
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    padding: 20px 40px;
+    border: solid black 2px;
+    transition: .3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to top, white 50%, black 50%);
+    background-size: 100% 200%;
+    background-position: bottom;
+    color: black;
+    transition: .3s ease;
+}
